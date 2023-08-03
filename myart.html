@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Cal's Art Gallery</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styleNavbar.css">
+  <link rel="stylesheet" href="carouselStyle.css">
+  <link rel="stylesheet" href="styleMain.css">
+  
+  <link rel="icon" type="image" href="Img/icon.png">
+</head>
+
+
+<body>
+
+  <!-- Note -->
+  <div style="background:#9B1A50;padding:5px">
+    <h4 style="text-align:center">Page currently in progress. Can't wait to show you the final result !</h4>
+</div>
+
+<!-- Header -->
+<div class="header">
+    <h1>Calgeka's</h1>
+    <p>Little corner of the Internet</p>
+</div>
+
+
+  <!-- Navigation Bar -->
+  <div class="topnav">
+    <a href="home.html">About Me</a>
+    <a href="mywork.html">My work</a>
+    <a href="myart.html">My art</a>
+    <a href="#">...and more !</a>
+    <a href="#" style="float:right">$</a>
+  </div>
+
+  <br>
+  <div class="main">
+    <div id="Carousel">
+      <div class="cali active">
+        <img id="im0" src="Img/ArtGallery/cali1.jpg">
+      </div>
+
+      <button id="im-1" class="cali prev" onclick="clickprev(1)">
+        <img src="Img/ArtGallery/cali9.jpg">
+      </button>
+
+      <button id="im1" class="cali next" onclick="clicknext(1)">
+        <img src="Img/ArtGallery/cali2.jpg">
+      </button>
+
+      <button id="im-2" class="cali prevprime" onclick="clickprev(2)">
+        <img src="Img/ArtGallery/cali8.jpg">
+      </button>
+
+      <button id="im2" class="cali nextprime" onclick="clicknext(2)">
+        <img src="Img/ArtGallery/cali3.jpg">
+      </button>
+
+    </div>
+
+
+
+  </div>
+
+
+  <button onclick="testFunction()" style="padding: 20px;">TEST</button>
+
+
+  <script src="carousel.js"></script>
+
+</body>
+</html>
