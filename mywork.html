@@ -4,26 +4,26 @@
   <title>Cal's Work Gallery</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styleNavbar.css">
-  <link rel="stylesheet" href="styleMain.css">
-  <link rel="stylesheet" href="carouselStyle.css">
-  
+  <link rel="stylesheet" href="Styles/styleNavbar.css">
+  <link rel="stylesheet" href="Styles/styleMain.css">
+  <link rel="stylesheet" href="Styles/carouselStyle.css">
+
   <link rel="icon" type="image" href="Img/icon.png">
 </head>
 
- 
+
 <body>
 
   <!-- Note -->
   <div style="background:#9B1A50;padding:5px">
-    <h4 style="text-align:center">Page currently in progress. Can't wait to show you the final result !</h4>
-</div>
+    <h4 style="text-align:center" id="banner">Page currently in progress. Can't wait to show you the final result !</h4>
+  </div>
 
-<!-- Header -->
-<div class="header">
+  <!-- Header -->
+  <div class="header">
     <h1>Calgeka's</h1>
     <p>Little corner of the Internet</p>
-</div>
+  </div>
 
 
   <!-- Navigation Bar -->
@@ -31,15 +31,17 @@
     <a href="home.html">About Me</a>
     <a href="mywork.html">My work</a>
     <a href="myart.html">My art</a>
-    <a href="#">...and more !</a>
-    <a href="#" style="float:right">$</a>
+    <a href="more.html">...and more !</a>
+    <a href="shop.html" style="float:right">$</a>
   </div>
 
   <br>
   <div class="main">
     <div id="Carousel">
       <div class="cali active">
-        <img id="im0" src="Img/ArtGallery/cali1.jpg">
+
+        <img src="Img/ArtGallery/cali1.jpg">
+
       </div>
 
       <button id="im-1" class="cali prev" onclick="clickprev(1)">
@@ -64,10 +66,9 @@
 
   </div>
 
+  <script src="Styles/carousel.js"></script>
+  <script src="Styles/Scripts/Banner.js"></script>
 
-  <button onclick="testFunction()" style="padding: 20px;">TEST</button>
 
-
-  <script src="carousel.js"></script>
 
 </body>

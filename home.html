@@ -5,9 +5,8 @@
     <title>Calgeka's Corner</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styleCode.css">
-    <link rel="stylesheet" href="styleNavbar.css">
-    <link rel="stylesheet" href="styleMain.css">
+    <link rel="stylesheet" href="Styles/styleNavbar.css">
+    <link rel="stylesheet" href="Styles/styleMain.css">
     <link rel="icon" type="image" href="Img/icon.png">
 </head>
 
@@ -15,7 +14,8 @@
 
     <!-- Note -->
     <div style="background:#9B1A50;padding:5px">
-        <h4 style="text-align:center">Page currently in progress. Can't wait to show you the final result !</h4>
+        <h4 style="text-align:center" id="banner">Page currently in progress. Can't wait to show you the final result !
+        </h4>
     </div>
 
     <!-- Header -->
@@ -29,18 +29,24 @@
         <a href="home.html">About Me</a>
         <a href="mywork.html">My work</a>
         <a href="myart.html">My art</a>
-        <a href="#">...and more !</a>
-        <a href="#" style="float:right">$</a>
+        <a href="more.html">...and more !</a>
+        <a href="shop.html" style="float:right">$</a>
     </div>
 
     <br>
 
-    <div id="me" class="main">
-        <p>Welcome in this little corner of the Internet! Make yourself cosy, I'll be right here !</p>
-        <img height="300px" src="Img/tea.webp" alt="Have a cup of tea !"><!--TODO : mettre une belle image-->
-        <p>Hi ! I'm Calgeka, French part-time artist, part-time developper and full-time ADHD. I'm always looking
-            for new challenges and experiments ! I have a hobby list longer than my arm, which is apparently still not
-            enough. </p>
+    <div id="me" class="main boxContent">
+        <img height="400px" src="Img/calMain.png" alt="Have a cup of tea !">
+        <div class="boxContent">
+            <p>Welcome in this little corner of the Internet! Make yourself cosy, I'll be right here !</p>
+            <p>I'm Calgeka, French part-time artist, part-time developper and full-time ADHD. I'm always looking
+                for new challenges and experiments ! I have a hobby list longer than my arm, which I might still
+                add to ! </p>
+            <p>When I'm not drowning in ADHD gridlock, you can usually find me playing Risk of Rain or watching some
+                Outer Wilds. I draw and paint with various media, I sew and do leatherwork, and sometimes sculpt wood or
+                polymer clay, among others. Feel free to ask me anything !</p>
+
+        </div>
 
 
 
@@ -94,7 +100,7 @@
 
     <div class="footer">
         <p> Contact me :</p>
-        
+
         <div class="FlexFooter">
             <!-- Discord link -->
             <div class="boxlink" style="background-color: #5865f2; color: white;">
@@ -124,6 +130,7 @@
 
     </div>
 
+    <script src="Styles/Scripts/Banner.js"></script>
 </body>
 
 </html>
