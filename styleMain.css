@@ -8,17 +8,24 @@ body {
     font-family: Arial;
     margin: 0;
 }
+p {
+    margin:5px
+}
 
 /* Header/logo Title */
 .header {
-    background-image: url('Img/BG.png');
+    background-image: url('../Img/BG.png');
     background-repeat: round;
     padding: 60px;
     text-align: center;
     color: white;
 
 }
-
+.boxContent {
+    border-radius: 5px;
+    align-items: center;
+    padding: 20px;
+}
 .boxlink {
     border-radius: 5px;
     height: 60px;
@@ -72,6 +79,14 @@ body {
     background: #ddd; 
 }
 
+#me{
+    display: flex;
+
+   
+}
+#me  p {
+    float: left;
+}
 /* Footer */
 .FlexFooter {
     height: 100px;
