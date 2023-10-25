@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="Styles/styleNavbar.css">
   <link rel="stylesheet" href="Styles/carouselStyle.css">
   <link rel="stylesheet" href="Styles/styleMain.css">
-  
+  <link rel="stylesheet" href="Styles/styleGallery.css">
+
   <link rel="icon" type="image" href="Img/icon.png">
 </head>
 
@@ -17,13 +18,13 @@
   <!-- Note -->
   <div style="background:#9B1A50;padding:5px">
     <h4 style="text-align:center" id="banner">Page currently in progress. Can't wait to show you the final result !</h4>
-</div>
+  </div>
 
-<!-- Header -->
-<div class="header">
+  <!-- Header -->
+  <div class="header">
     <h1>Calgeka's</h1>
     <p>Little corner of the Internet</p>
-</div>
+  </div>
 
 
   <!-- Navigation Bar -->
@@ -32,47 +33,588 @@
     <a href="myart.html">Gallery</a>
     <a href="more.html">... and more !</a>
     <a href="shop.html" style="float:right">$</a>
-</div>
-
-  <br>
-  <div class="main">
-    <div id="Carousel">
-      <div class="cali active">
-        <canvas id="canvas3"height="400" width="710"></canvas>
-      </div>
-
-      <button id="im-1" class="cali prev" onclick="clickprev(1)">
-        <canvas id="canvas2" height="400" width="710"></canvas>
-      </button>
-
-      <button id="im1" class="cali next" onclick="clicknext(1)">
-        <canvas id="canvas4"height="400" width="710"></canvas>
-      </button>
-
-      <button id="im-2" class="cali prevprime" onclick="clickprev(2)">
-        <canvas id="canvas1"height="400" width="710"></canvas>
-      </button>
-
-      <button id="im2" class="cali nextprime" onclick="clicknext(2)">
-        <canvas id="canvas5"height="400" width="710"></canvas>
-      </button>
-
-    </div>
-
-
-
   </div>
 
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/Alyx_on_machine.jpg" alt="Alyx_on_machine">
+      <div class="desc">
+        <div class="title">
+          Alyx the digigrade mannequin posing on the Singer!
+        </div>
+        <div class="description">
 
-  <button onclick="testFunction()" style="padding: 20px;">TEST</button>
-
-
-  <script src="Styles/carousel.js"></script>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="https://www.marvinj.org/releases/marvinj-0.7.js"></script>
-  <script src="Styles/imageEmbedding.js"></script>
-
-  <script src="Styles/Scripts/Banner.js"></script>
+        </div>
+        <div class="tags">
+          #photo #physical #furry
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/aqua_map.jpg" alt="aqua_map">
+      <div class="desc">
+        <div class="title">
+          Concept art of a pirate map
+        </div>
+        <div class="description">
+          Watercolor, summer 2022
+        </div>
+        <div class="tags">
+          #watercolor #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/aqua_rideau.jpg" alt="aqua_rideau">
+      <div class="desc">
+        <div class="title">
+          Curtain floating on the wind
+        </div>
+        <div class="description">
+          small drawing using my new watercolor set ! September 2023
+        </div>
+        <div class="tags">
+          #watercolor #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/aqua_ville.jpg" alt="aqua_ville">
+      <div class="desc">
+        <div class="title">
+          Nightly city
+        </div>
+        <div class="description">
+          train drawing, summer 2023
+        </div>
+        <div class="tags">
+          #watrecolor #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/blind_pest.jpg" alt="sooo cute :p">
+      <div class="desc">
+        <div class="title">
+          Blind Pest Plushie
+        </div>
+        <div class="description">
+          Commission from a friend, made from reused and thrifted materials. Blind pest, ennemy from the Risk of Rain 2
+          video game. Summer 2022.
+        </div>
+        <div class="tags">
+          #sewing #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/bougie_neige.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Snowman Candle
+        </div>
+        <div class="description">
+          Part of a set of Christmas homemade candles. It did burn but did not gvery bright.
+        </div>
+        <div class="tags">
+          #sculpt #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/bougie_sapin.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Christmas candle
+        </div>
+        <div class="description">
+          Part of a set of Christmas homemade candles. It did burn FIERCELY.
+        </div>
+        <div class="tags">
+          #sculpt #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/cal_armure_cali.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Calgeka in their armor
+        </div>
+        <div class="description">
+          My main OC, september 2023
+        </div>
+        <div class="tags">
+          #watercolor #ink #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/calMain_cali.png" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Calgeka profile picture
+        </div>
+        <div class="description">
+          My main OC, digital profile picture. August 2023.
+        </div>
+        <div class="tags">
+          #digital
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/collectif_radiant.png" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Olg drawing of my RP party !
+        </div>
+        <div class="description">
+          and that's not even everyone. We were a lot lol. Sorry for the private joke, I don't have a better picture.
+        </div>
+        <div class="tags">
+          #digital #physical #herobrine.fr
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/cosplay.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Calgeka (RP) cosplay
+        </div>
+        <div class="description">
+          I did name most of my characters Calgeka. This one is Calgeka, member of the Order of Herobrine. Fighter,
+          researcher, but mostly mechanic, she talks more to her machines than her peers.
+        </div>
+        <div class="tags">
+          #sewing #physical #herobrine.fr
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/couture_gant.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Gaming glove
+        </div>
+        <div class="description">
+          I sweat from my palms. To aviod damaging my computer, I sew these palm gloves to protect my hands. Then I
+          loose them, and sew some more.
+        </div>
+        <div class="tags">
+          #sewing #acrylic #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/couture_isotheme.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Heat-trap custom box
+        </div>
+        <div class="description">
+          Custom box to protext my lunches. Very useful.
+        </div>
+        <div class="tags">
+          #sewing #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/couture_outer_wilds_patch.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Outer Wilds Venture embroidered patch
+        </div>
+        <div class="description">
+          Made as a commission for u/Skillfingr in september 2023!
+        </div>
+        <div class="tags">
+          #sewing #physical #commission
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/outer_wilds_frigo.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Outer wilds DLC magnet
+        </div>
+        <div class="description">
+          yes, I had a Frigidaire fridge. I miss it everyday.
+        </div>
+        <div class="tags">
+          #acrylic #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/outer_wilds_table.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Outer Wilds table
+        </div>
+        <div class="description">
+          MDF pannels on a metal skeletton, acrylic and varnish. To replace the glass panels that are now hung over my
+          father's desk ! September-December 2021
+        </div>
+        <div class="tags">
+          #acrylic #physical #OuterWilds #fanart
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/couture_parkhaj.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Shark jacket for my fiancée ! Happy bd love ❤️
+        </div>
+        <div class="description">
+          Blahaj Blahaj Blahaj my beloved. Still looking for a good pun with Shark/Blahaj and jacket.
+        </div>
+        <div class="tags">
+          #sewing #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/crystal.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Crystal
+        </div>
+        <div class="description">
+          2021 Inktober
+        </div>
+        <div class="tags">
+          #watercolor #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/cuir_téléphone.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Leather phone cover
+        </div>
+        <div class="description">
+          my plastic cover was in a pitiful state. This one will outlast the phone.
+        </div>
+        <div class="tags">
+          #leather #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/david_syberpunk.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          David - cyberpunk edgerunner
+        </div>
+        <div class="description">
+          line training, september 2023
+        </div>
+        <div class="tags">
+          #fanart #ink #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/desert.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Desert - Inktober 2021 ?
+        </div>
+        <div class="description">
+          Watercolor on shitty paper. Enjoy !
+        </div>
+        <div class="tags">
+          #watercolor #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/digital_alanya.png" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          [RP][OC] Alanya
+        </div>
+        <div class="description">
+          Commission from my RP server, for Alanya the alchemist.
+        </div>
+        <div class="tags">
+          #herobrine.fr #digital
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/duck_discovery.png" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Explorer duck
+        </div>
+        <div class="description">
+          Part of my duck series for @canardé on discord, and his DuckHunt bot.
+        </div>
+        <div class="tags">
+          #duckhunt #digital
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/fimo_dragon.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Brooch to hold my cape closed !
+        </div>
+        <div class="description">
+          polymer clay and acrylic
+        </div>
+        <div class="tags">
+          #sculpt #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/fimo_wings.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Brooch to hold my cape closed !
+        </div>
+        <div class="description">
+          polymer clay and acrylic
+        </div>
+        <div class="tags">
+          #sculpt #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/flowers.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Flowers
+        </div>
+        <div class="description">
+          acrylic on paper, 2020
+        </div>
+        <div class="tags">
+          #acrylic #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/game_design.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Game Design - Unsinknable.Co.
+        </div>
+        <div class="description">
+          From my Video Games course in 2022
+        </div>
+        <div class="tags">
+          #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/mini_antilles.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Tropical Canvas
+        </div>
+        <div class="description">
+          
+        </div>
+        <div class="tags">
+          #acrylic #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/mini_dragon.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Small Fimodragon !
+        </div>
+        <div class="description">
+          polymer clay and acrylic
+        </div>
+        <div class="tags">
+          #sculpt #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/mini_sapin_lune.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Moonlit trees
+        </div>
+        <div class="description">
+          acrylic on tiny canvas
+        </div>
+        <div class="tags">
+          #sculpt #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/robe_bleue.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Blue dress
+        </div>
+        <div class="description">
+          made-to-measure dress
+        </div>
+        <div class="tags">
+          #sewing #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/SM_firing.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Space-marine-ish
+        </div>
+        <div class="description">
+          pen on paper, 2020
+        </div>
+        <div class="tags">
+          #pencil #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/tatoo_tiare.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Tiare is a tropical flower.
+        </div>
+        <div class="description">
+          Tatto markers on skin, 2023
+        </div>
+        <div class="tags">
+          #tatoo #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/vorondil-raphaelle2.png" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          [RP][OC]Vorondil And Raphaelle
+        </div>
+        <div class="description">
+          Commission for Vorondil
+        </div>
+        <div class="tags">
+           #digital
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/six_paintings.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Six Paintings
+        </div>
+        <div class="description">
+          Acrylic on MDF, spring 2022
+        </div>
+        <div class="tags">
+          #acrylic #physical
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="responsive">
+    <div class="gallery">
+      <img height="300px" src="Img/ArtGallery/furry_over_wall.jpg" alt="Have a cup of tea !">
+      <div class="desc">
+        <div class="title">
+          Furry over wall
+        </div>
+        <div class="description">
+          by far the oldest of all the drawings here. 2019, time flies lol.
+        </div>
+        <div class="tags">
+          #pencil #physical
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
