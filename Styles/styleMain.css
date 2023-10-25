@@ -24,7 +24,6 @@ p {
 .boxContent {
     border-radius: 5px;
     align-items: center;
-    background-color: #0968c8;
     padding: 20px;
 }
 .boxlink {
@@ -64,15 +63,9 @@ p {
     padding: 20px;
 }
 
-/* Fake image, just for this example */
-.fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-}
+
 
 .footer {
-    height: 100px;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -88,6 +81,24 @@ p {
 #me  p {
     float: left;
 }
+
+#work{
+    display: flex;
+
+   
+}
+#work  p {
+    float: left;
+}
+
+#artGallery{
+    display: flex;
+    
+}
+#artGallery img {
+    padding: 3px;
+}
+
 /* Footer */
 .FlexFooter {
     height: 100px;

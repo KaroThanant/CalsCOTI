@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="Styles/styleNavbar.css">
     <link rel="stylesheet" href="Styles/styleMain.css">
+    <link rel="stylesheet" href="Styles/styleGallery.css">
     <link rel="icon" type="image" href="Img/icon.png">
 </head>
 
@@ -14,7 +15,8 @@
 
     <!-- Note -->
     <div style="background:#9B1A50;padding:5px">
-        <h4 style="text-align:center" id="banner">Page currently in progress. Can't wait to show you the final result !
+        <h4 style="text-align:center" id="banner">
+            Page currently in progress. Can't wait to show you the final result !
         </h4>
     </div>
 
@@ -27,16 +29,15 @@
     <!-- Navigation Bar -->
     <div class="topnav">
         <a href="home.html">About Me</a>
-        <a href="mywork.html">My work</a>
-        <a href="myart.html">My art</a>
-        <a href="more.html">...and more !</a>
+        <a href="myart.html">Gallery</a>
+        <a href="more.html">... and more !</a>
         <a href="shop.html" style="float:right">$</a>
     </div>
 
     <br>
 
     <div id="me" class="main boxContent">
-        <img height="400px" src="Img/calMain.png" alt="Have a cup of tea !">
+        
         <div class="boxContent">
             <p>Welcome in this little corner of the Internet! Make yourself cosy, I'll be right here !</p>
             <p>I'm Calgeka, French part-time artist, part-time developper and full-time ADHD. I'm always looking
@@ -47,31 +48,33 @@
                 polymer clay, among others. Feel free to ask me anything !</p>
 
         </div>
-
-
-
+        <img height="400px" src="Img/ArtGallery/calMain.png" alt="Have a cup of tea !">
     </div>
-    <div id="work" class="main">
-        <h1>Designer</h1>
-        <p>I made this site not only as a showcase to my art, but also as a challenge to myself. It took a lot of work
-            to be proud of myself, and proud of this website.
-            But as it is with life, the journey continues. As I learn more, I will keep to improve this little corner of
-            the Internet.
-        </p>
-        <img height="300px" src="Img/tea.webp" alt="Have a cup of tea !"><!--TODO : mettre une belle image-->
-        <p>
-            I do not do art for the beauty of itself. I'd rather it have an impact on people's lives. And what better
-            impact that using
-            art to design websites that are both beautiful and easy to use ?
-        </p>
-        <p>I place the user experience at the heart of my work. I strive to make all my designs daltonian-friendly, and
-            compatible with
-            neurodivergent and disabled people.
-            Should you notice any possible amelioration, shoot me a message, or for the tech-savy, you can open a
-            pull-request on GitHub !
-            I will do all I can to help you !
 
-        </p>
+
+    <div id="work" class="main boxcontent">
+        <img height="400px" src="Img/ArtGallery/cosplay.jpg" alt="Me in a cosplay in 2021">
+        <div class="boxContent">
+            <h1>Designer</h1>
+            <p>I made this site not only as a showcase to my art, but also as a challenge to myself. It took a lot of work
+                to be proud of myself, and proud of this website.
+                But as it is with life, the journey continues. As I learn more, I will keep to improve this little
+                corner of the Internet.
+            </p>
+            <p>
+                I do not do art for the beauty of itself. I'd rather it have an impact on people's lives. And what
+                better impact that using
+                art to design websites that are both beautiful and easy to use ?
+            </p>
+            <p>I place the user experience at the heart of my work. I strive to make all my designs daltonian-friendly,
+                and compatible with neurodivergent and disabled people.
+                Should you notice any possible amelioration, shoot me a message, or for the tech-savy, you can open a
+                pull-request on GitHub ! I will do all I can to help you !
+            </p>
+        </div>
+
+
+
     </div>
     <div id="art" class="main">
         <h1>The Artistery</h1>
@@ -81,16 +84,71 @@
             OCs. Interested by my work ? See the Shop section
             to see the prices, and contact me for any questions !
         </p>
-        <div id="artGallery">
-            <img height="300px" src="Img/tea.webp" alt="Have a cup of tea !"><!--TODO : mettre une belle image-->
+        <div class="responsive">
+            <div class="gallery">
+                <img height="300px" src="Img/ArtGallery/mini_dragon.jpg" alt="Have a cup of tea !">
+                <div class="desc">
+                    <div class="title">
+                        Small Fimodragon !
+                    </div>
+                    <div class="description">
+                        polymer clay and acrylic
+                    </div>
+                    <div class="tags">
+                        #sculpt #physical
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <div id="theRest">
-        <img height="300px" src="Img/tea.webp" alt="Have a cup of tea !"><!--TODO : mettre une belle image-->
-    </div>
-    <div id="shop">
-        <img height="300px" src="Img/tea.webp" alt="Have a cup of tea !"><!--TODO : mettre une belle image-->
-    </div>
+        <div class="responsive">
+            <div class="gallery">
+                <img height="300px" src="Img/ArtGallery/mini_sapin_lune.jpg" alt="Have a cup of tea !">
+                <div class="desc">
+                    <div class="title">
+                        A small mountain landscape
+                    </div>
+                    <div class="description">
+                        Acrilyc on a tiny canvas, november 2021
+                    </div>
+                    <div class="tags">
+                        #acrylic #physical
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <img height="300px" src="Img/ArtGallery/mini_paysage_3.jpg" alt="Have a cup of tea !">
+                <div class="desc">
+                    <div class="title">
+                        Somme travel mini mandscapes
+                    </div>
+                    <div class="description">
+                        Watercolor on-the-go
+                    </div>
+                    <div class="tags">
+                        #watercolor #physical
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+                <img height="300px" src="Img/ArtGallery/mini_antilles.jpg" alt="Have a cup of tea !">
+                <div class="desc">
+                    <div class="title">
+                        Small tropical painting
+                    </div>
+                    <div class="description">
+                        acrylic on canvas, november 2021
+                    </div>
+                    <div class="tags">
+                        #acrylic #physical
+                    </div>
+                </div>
+            </div>
+        </div>
+        
 
 
     </div>
