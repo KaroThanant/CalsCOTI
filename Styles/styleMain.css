@@ -99,6 +99,9 @@ p {
     .main img {
         width: fit-content;
     }
+    .main div{
+        width: 100%;
+    }
   
 
 }
