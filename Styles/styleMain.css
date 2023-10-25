@@ -91,13 +91,7 @@ p {
     float: left;
 }
 
-#artGallery{
-    display: flex;
-    
-}
-#artGallery img {
-    padding: 3px;
-}
+
 
 /* Footer */
 .FlexFooter {
@@ -116,6 +110,9 @@ p {
     .rightcolumn {
         width: 100%;
         padding: 0;
+    }
+    .main{
+        flex-direction: column;
     }
 
 }
