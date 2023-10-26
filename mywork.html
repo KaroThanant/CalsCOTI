@@ -1,74 +1,46 @@
 <!DOCTYPE html>
+<html>
 
 <head>
-  <title>Cal's Work Gallery</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="Styles/styleNavbar.css">
-  <link rel="stylesheet" href="Styles/styleMain.css">
-  <link rel="stylesheet" href="Styles/carouselStyle.css">
+  <style>
+    p {
+      background-color: aqua
+    }
 
-  <link rel="icon" type="image" href="Img/icon.png">
+    
+  </style>
+
 </head>
-
 
 <body>
 
-  <!-- Note -->
-  <div style="background:#9B1A50;padding:5px">
-    <h4 style="text-align:center" id="banner">Page currently in progress. Can't wait to show you the final result !</h4>
-  </div>
+  <p id="here">Blue</p>
 
-  <!-- Header -->
-  <div class="header">
-    <h1>Calgeka's</h1>
-    <p>Little corner of the Internet</p>
-  </div> 
-
-
-  <!-- Navigation Bar -->
-  <div class="topnav">
-    <a href="index.html">About Me</a>
-    <a href="mywork.html">My work</a>
-    <a href="myart.html">My art</a>
-    <a href="more.html">...and more !</a>
-    <a href="shop.html" style="float:right">$</a>
-  </div>
-
-  <br>
-  <div class="main">
-    <div id="Carousel">
-      <div class="cali active">
-
-        <img src="Img/ArtGallery/cali1.jpg">
-
-      </div>
-
-      <button id="im-1" class="cali prev" onclick="clickprev(1)">
-        <img src="Img/ArtGallery/cali9.jpg">
-      </button>
-
-      <button id="im1" class="cali next" onclick="clicknext(1)">
-        <img src="Img/ArtGallery/cali2.jpg">
-      </button>
-
-      <button id="im-2" class="cali prevprime" onclick="clickprev(2)">
-        <img src="Img/ArtGallery/cali8.jpg">
-      </button>
-
-      <button id="im2" class="cali nextprime" onclick="clicknext(2)">
-        <img src="Img/ArtGallery/cali3.jpg">
-      </button>
-
+  <div class="dropdown">
+    <p class="dropbtn">Dropdown</p>
+    <div class="dropdown-content">
+      <button id="one">one</button>
+      <button id="two">two</button>
+      <button id="three">three</button>
     </div>
-
-
-
   </div>
 
-  <script src="Styles/carousel.js"></script>
-  <script src="Styles/Scripts/Banner.js"></script>
 
 
+  <script>
+    // Get the modal
+    var p = document.getElementById("here");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("one");
+
+    // When the user clicks the button, open the modal 
+    btn.onclick = function () {
+      p.style.background = "black";
+    }
+
+  </script>
 
 </body>
+
+</html>

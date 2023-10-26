@@ -12,6 +12,16 @@ div.gallery {
     width: 100%;
     height: auto;
   }
+
+  div.title {
+    text-decoration: underline;
+    
+  }
+  div.a, div.a:hover, div.a:visited {
+  text-decoration: underline;
+  text-decoration-color: black;
+  color: black;
+  }
   
   div.desc {
     padding: 15px;
