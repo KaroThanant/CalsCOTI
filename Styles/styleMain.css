@@ -61,7 +61,12 @@ p {
 
 
 
+
+
+/* Footer */
+
 .footer {
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -69,9 +74,6 @@ p {
     background: #ddd;
 }
 
-
-
-/* Footer */
 .FlexFooter {
     height: 100px;
     display: flex;
@@ -105,6 +107,10 @@ p {
     }
     .main div{
         width: 100%;
+    }
+    .FlexFooter {
+        flex-wrap: wrap;
+        height: 200px;
     }
   
 
